@@ -1,11 +1,11 @@
 /** Body **/
 
 body {
-    background: #FFF;
+    background: pink;
 }
 
 a {
-    color: #748eb3;
+    color: #000000;
     transition: .3s;
 }
 
@@ -15,19 +15,6 @@ a {
     margin-right: 0px!important;
 }
 
-span.app-title {
-    font-size: 35px;
-    font-family: fantasy;
-    letter-spacing: 5px;
-    color: #748eb3;
-}
-
-.app-header {
-    text-align: center;
-    margin-top: 10px;
-    color: black;
-    letter-spacing: 4px;
-}
 
 
 /** Body **/
@@ -35,18 +22,13 @@ span.app-title {
 .calculatorArea {
     margin: 50px 30px 0px 30px;
     padding: 10px 0px 30px 10px;
-    background: #282828;
+    background: #05bf96;
 }
 
-.btn {
-    border-radius: 10px;
-    box-shadow: 3px 4px 25px 0px #414141;
-    transition: .3s;
-}
 
 .btn:hover {
     border-radius: 10px;
-    box-shadow: 2px 4px 7px -4px #fff;
+    box-shadow: 2px 4px 7px -4px rgb(223, 27, 27);
 }
 
 .text-bold {
@@ -57,10 +39,10 @@ span.app-title {
 /** Header **/
 
 .resultArea {
-    background: #E6E6E6;
+    background: #ffffff;
     height: 80px;
     font-weight: bold;
-    color: #282828;
+    color: #a41010;
     text-align: right;
     padding-right: 40px;
     padding-top: 12px;
@@ -97,26 +79,26 @@ span.app-title {
 }
 
 .top-button {
-    background: #B082A9;
-    border: 1px solid #B082A9;
+    background: #ff01d9;
+    /* border: 1px solid #10b9bc; */
     width: 19%;
     margin: 0px 0px 0px 10px;
 }
 
 .top-button:hover {
-    background: #9A6F92;
+    background: #ff00d0;
     border: 1px solid #9A6F92;
 }
 
 .btn-mem {
-    background: #8FBE8A;
-    border: 1px solid #8FBE8A;
+    background: #1cff02;
+    border: 1px solid #8abbbe;
     width: 19%;
     margin: 0px 0px 0px 10px;
 }
 
 .btn-mem:hover {
-    background: #6E9B6D;
+    background: #04f800;
     border: 1px solid #6E9B6D;
 }
 
@@ -126,7 +108,7 @@ span.app-title {
 }
 
 .btn-digit {
-    background: #758FB5;
+    background: #0066ff;
     border: 1px solid #758FB5;
 }
 
@@ -136,7 +118,7 @@ span.app-title {
 }
 
 .btn-operation {
-    background: #979797;
+    background: #ff0000;
     border: 1px solid #979797;
 }
 
@@ -146,12 +128,12 @@ span.app-title {
 }
 
 .btn-equal {
-    background: #BF6F69;
+    background: #6a0700;
     border: 1px solid #BF6F69;
 }
 
 .btn-equal:hover {
-    background: #AD655C;
+    background: #460901;
     border: 1px solid #AD655C;
 }
 
@@ -166,6 +148,9 @@ span.app-title {
 }
 
 p.copy-right {
-    color: #969696!important;
+    color: #4b0202!important;
     margin-right: 27px;
 }
+
+
+

@@ -273,12 +273,6 @@ printResultTextCSS = () => {
         <div className="App">
             <div className="row justify-content-center">
               <div className="col-md-5">
-
-                <div className="app-header">
-                    <span className="app-title">AJ</span> Calculator 
-                    <span className="badge badge-warning">React <small>js</small></span>
-                </div>
-
                 <div className="calculatorArea">
                   <div className="row">
                     
@@ -355,7 +349,7 @@ printResultTextCSS = () => {
                 </div>
                 
                 <p className="copy-right text-right">
-                    &copy; 2020, <a href="https://github.com/ManiruzzamanAkash" target="_blank">Maniruzzaman Akash </a>
+                    <a href="https://github.com/Ashirova-Zuhra/Calculator-react.git" target="_blank">Zuhra Ashirova</a>
                 </p>
             </div>
             </div>
